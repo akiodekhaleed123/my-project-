@@ -1,0 +1,187 @@
+
+body{
+    overflow-x: hidden;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    width: 100%;
+    margin-top: 100px;
+}
+.iphone{
+    display: flex;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    transform: translateY(-20%);
+
+}
+.item3{
+    width: 70%;
+    line-height: 1.3em;
+}
+ *{
+    margin: 0%;
+    padding: 0%;
+}
+.nav{
+    position: absolute;
+    display: flex;
+}
+.logo{
+    margin-left: 60px;
+}
+.items{
+    width: 800px;
+    gap: 60px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #686868;
+    display: flex;
+    margin-top: 65px;
+    margin-left: 60px;
+}
+.but{
+    margin-top:50px ;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: azure;
+    border: none;
+    margin-left: 1110px;
+}
+.box{
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    display:none;
+}
+.enter:hover{
+    box{
+        
+    }
+}
+.item2{
+    margin-top: 50px;
+    margin-left: 70px;
+    font-size: 3rem;
+    line-height: 6.2rem;
+    font-family: "Millik";
+}
+.Endless{
+    color: #fb9129;
+}
+.itema{
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 2.2rem;
+    margin-bottom: 10px;
+    color: #3a3737;
+}
+.btn-1{
+    width: 200px;
+    height: 50px;
+    margin-left: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0A0E27;
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+}
+.btn-2{
+    width: 150px;
+    height: 50px;
+    margin-left: 60px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    font-weight: 100;
+    font-size: 15px; 
+    margin-left: 10px;
+}
+@font-face{
+    font-family: "Flutter" ;
+    src: url(./assets/Millik.ttf);
+}
+.item2{
+    font-family: "Flutter";
+    src: url(./assets/Millik.ttf);
+}
+.item3{
+    color: #312e2e;
+    font-size: 1.3rem;
+    font-weight: 100;
+    line-height: 1.8rem;
+    margin-top: 1.4rem;
+    width: 38rem;
+    text-align: left;
+} 
+.span{
+    font-weight: 500;
+    font-size: 2rem;
+    color: black;
+}
+.item-4{
+    margin-left: 100px;
+    font-size: 1.5rem;
+    margin-top: -90px;
+}
+.item-5{
+    margin-left: 60px;
+    margin-top: 100px;
+    font-size: large;
+    line-height: 3.1em;
+    max-width: 50%;
+    font-family: "Flutter";
+    font-size: 2rem;
+}
+.span-2{
+    color: #fb9129 ;
+}
+.online{
+    margin-top:100px;
+    margin-left: 60px;
+}
+.item-6{
+    color: #312e2e;
+    max-width: 40.5%;
+    font-weight: 100;
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+
+.item-7{
+ display: flex;
+ justify-content: space-evenly;
+ /* align-items: center; */
+ flex-wrap: nowrap;
+ margin-left: -30px;
+}
+.item-6b{
+    color: #312e2e;
+    font-weight: 100;
+    font-size: 25px;
+    margin-top: 20px;  
+}
+.btn-3{
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size:12px;
+    font-weight: 500;
+}
+.Learn{
+    color: #fb4e20;
+    margin-top: 30px;
+}
